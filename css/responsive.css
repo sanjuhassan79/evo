@@ -1,0 +1,237 @@
+
+/* XL Device :1200px. */
+
+@media (min-width: 1700px) and (max-width: 1815px) {
+    .home-contact-wrap {
+       top: 195%;
+    }
+    .home-contact p {
+        font-size: 57px;
+        
+    }
+    .home-contact h1 {
+        font-size: 111px;
+        line-height: 66px;
+        margin-top: 60px;
+    }
+    img.authoreig1 {
+        width: 98%;
+        height: 295%;
+    }
+    .testimonial-content {
+        padding-bottom: 74px;
+    }
+}
+/* LG Device :1550px. */
+@media (min-width: 1550px) and (max-width: 1699px) {
+
+    .home-contact-wrap {
+        top: 139%;
+     }
+     .home-contact p {
+         font-size: 57px;
+         
+     }
+     .home-contact h1 {
+         font-size: 104px;
+         line-height: 66px;
+         margin-top: 60px;
+     }
+
+    img.authoreig1 {
+        width: 98%;
+        height: 295%;
+    }
+    .testimonial-content {
+        padding-bottom: 74px;
+    }
+
+}
+/* LG Device :1500px. */
+@media (min-width: 1500px) and (max-width: 1549px) {
+
+    .home-contact-wrap {
+        top: 139%;
+     }
+     .home-contact p {
+         font-size: 57px;
+         
+     }
+     .home-contact h1 {
+         font-size: 104px;
+         line-height: 66px;
+         margin-top: 60px;
+     }
+
+    img.authoreig1 {
+        width: 98%;
+        height: 295%;
+    }
+    .testimonial-content {
+        padding-bottom: 74px;
+    }
+
+}
+
+/* LG Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1499px) {
+ 
+    .testimonial-content {
+        padding-bottom: 74px;
+    }
+    img.authoreig1 {
+        height: 100vh;
+        width: 100%;
+    }
+    
+}
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home-contact h1 {
+        font-size: 58px;
+      
+    }
+    .testimonial {
+        padding: 0px 62px;
+        
+    }
+    .testimonial-content {
+        padding-bottom: 74px;
+        padding-left: 20px;
+    }
+    .about-mg {
+        margin-top: 89px;
+    }
+    .about {
+        top: 57px;
+        left: 50%;
+    }
+    .home-contact-wrap {
+        position: relative;
+        top: 100%;
+    }
+    img.authoreig1 {
+        width: 98%;
+        height: 295%;
+    }
+
+}
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .authoreig-1 {
+        position: absolute;
+        display: none;
+    }
+    .home-contact-wrap {
+        
+        width: 500px;
+    }
+    .home-contact h1 {
+        font-size: 72px;
+
+    }
+    .basic-icon-row {
+        margin-bottom: 51px;
+    }
+    .about-mg img {
+        width: 63%;
+        margin-left: 17%;
+        margin-bottom: 44px;
+    }
+    .about-padd-left {
+        padding-left: 113px;
+        width: 83%;
+    }
+    img.authoreig1 {
+      
+        display: none;
+    }
+
+    .testimonial-content {
+        margin-top: -37px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial {
+        background: #6928d9c7;
+        height: 100%;
+        padding: 0px 135px;
+        width: 100%;
+        position: relative;
+        padding-top: 100px;
+    }
+    .home-contact-wrap {
+        position: relative;
+        top: 100%;
+    }
+    .home-contact p {
+        
+        margin-bottom: 42px;
+    }
+
+}
+
+/* Extra small Device. */
+
+@media (max-width: 767px) {
+    header {
+        padding: 0px 0px;
+    }
+    
+    .authoreig-1 {
+        position: absolute;
+        display: none;
+    }
+    
+    .home-contact h1 {
+        font-size: 34px;
+        line-height: 28px;
+        
+    }
+    .home-contact-wrap {
+        position: relative;
+        top: 222%;
+        margin-left: -71px;
+    }
+    .home-contact p {
+        font-size: 24px;
+        
+    }
+    .about-mg {
+        margin-bottom: 51px;
+    }
+    .authoreig-2 {
+        display: none;
+    }
+    .testimonial-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .testimonial {
+        padding: 0 0px;
+        
+    }
+    .team-hover {
+        left: 7px;
+      
+    }
+    button.btn.btn-success12 {
+       
+        margin-bottom: 30px;
+    }
+    
+}
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .authoreig-1 {
+        display: none !important;
+    }
+    .testimonial-content{
+        width: 400px;
+      
+    }
+    
+}

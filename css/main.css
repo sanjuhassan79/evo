@@ -1,0 +1,1386 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+03. home css
+04. basic css
+05. skille  css
+06. experience css
+07. PORTFOLIO css
+08. SERVICES css
+09. Team css
+10. testimonial css
+11. form css
+12. news css
+12. footer css
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lilita One', cursive;
+ 
+}
+
+p {
+  line-height: 26px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.section-padd-top{
+  padding-top: 100px;
+}
+.section-padd-button{
+  padding-bottom: 100px;
+}
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+.logo a {
+  font-size: 50px;
+  font-family: 'Lilita One', cursive;
+color: white;
+}
+
+.huber-icon {
+  float: right;
+  margin-top: 13px;
+  cursor: pointer;
+}
+header{
+  padding: 0px 100px;
+}
+
+.neel {
+  background-color: #5C20C3;
+  padding: 15px 0;
+  opacity: .9;
+  padding: 0px 100px;
+}
+/* offcanvas-menu */
+.offcanvas-menu {
+  width: 329px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #5D21C5;
+  z-index: 99;
+  padding: 37px;
+  margin-right: -329px;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  transition: .6s;
+}
+.offcanvas-menu.active{
+  margin-right: 0;
+  transition: .6s;
+  z-index: 9999;
+}
+ .offcanvas {
+  border: 5px solid gray;
+  margin-bottom: 15px;
+}
+
+.menu-item12 h5 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.menu-item12 p {
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+}
+nav.menu-item-inner ul li {
+  display: block;
+  text-align: right;
+  padding-top: 10px;
+  transition: .6s;
+}
+
+nav.menu-item-inner {
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+nav.menu-item-inner ul li a {
+  text-transform: capitalize;
+  color: white;
+  display: inline-block;
+}
+.menu-item-inner li:hover span{
+  padding-right: 16px;
+  transition: .6s;
+  color: #44ebff;
+}
+
+nav.menu-item-inner i {
+  color: #44EBFF;
+  padding-left: 17px;
+  font-size: 13px;
+}
+span.menu-close {
+  position: absolute;
+  top: 66%;
+  right: 14px;
+}
+
+span.menu-close i {
+  font-size: 30px;
+  color: wheat;
+}
+
+.offcanvas-menu-overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(29, 27, 124);
+  z-index: 98;
+  opacity: .5;
+  display: none;
+}
+.offcanvas-menu-overlay.active{
+  display: block;
+}
+
+.offcanvas-social{
+  display: block;
+}
+
+.offcanvas-social i {
+  background: #fff;
+  height: 37px;
+  width: 37px;
+  text-align: center;
+  color: #060630;
+  font-size: 15px;
+  line-height: 38px;
+  transition: all 0.3s ease 0s;
+  margin: 3.5px;
+  transition: .3s;
+  margin-top: 30px;
+}
+
+.offcanvas-social i:hover{
+  background: #44ebff;
+  color: #fff;
+  transition: .3s;
+}
+
+
+/* ..................................
+ 03. home CSS 
+.................................. */
+
+.home {
+  background-image: url(../img/bg-1/01_home.jpg);
+  background-color: #6928d9;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding: 0 100px;
+  overflow: hidden;
+}
+.home-contact p {
+  font-size: 34px;
+  
+  color: wheat;
+}
+.home-contact p span {
+  border-bottom: 1px solid #fff;
+}
+.home-contact h1 {
+  font-size: 75px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.home-contact-wrap {
+  position: relative;
+  top: 100%;
+}
+.home-contact {
+  display: table-cell;
+  vertical-align: middle;
+}
+.home-contact-wrap {
+  display: table;
+  height: 100%;
+}
+.authoreig-1 {
+  position: absolute;
+  }
+
+.authoreig{
+  padding-top: 30px;
+  width: 100%;
+  height: 103vh;
+}
+
+.layer {
+  position: absolute;
+  top: 46px;
+}
+.layer img{
+  width: 83px;
+}
+
+.layer-2 {
+  top: 40%;
+}
+
+.layer-3 {
+  left: 28%;
+  top: 69%;
+}
+
+.layer-4 {
+  right: 11%;
+  top: 33%;
+}
+
+/* ..................................
+ 04. basic CSS 
+.................................. */
+.basic-contact1 {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.basic-contact1 h5 {
+  font-size: 14px;
+  line-height: 22px;
+  color: #6928d9;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.basic-contact1 h3 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #060630;
+}
+.basic-icon-row i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  color: #fff;
+  
+}
+.basic-icon {
+  background: #6928D9;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: table;
+  position: relative;
+  margin-bottom: 27px;
+}
+.basic-icon:before {
+  content: '';
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background: #F4EDFF;
+  position: absolute;
+  z-index: -1;
+}
+p.ba-par {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #9498a9;
+  word-spacing: 4px;
+  margin-bottom: 5px;
+  display: block;
+  margin-top: 23px;
+}
+.border1 {
+  border-bottom: 1px solid #dee2e6!important;
+}
+
+.layer-basic {
+  position: absolute !important;
+  top: 129%;
+  right: 0;
+}
+.about-mg img {
+  width: 100%;
+  -webkit-box-shadow: 2px 11px 24px -6px rgba(0,0,0,0.78);
+  box-shadow: 2px 11px 24px -6px rgba(0,0,0,0.78);
+}
+.about-left {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.about-padd-left {
+  padding-left: 50px;
+}
+.about-padd-left {
+  padding-left: 50px;
+  
+}
+.about-left h5 {
+  color: #9498a9;
+}
+.about-tt{
+  font-size: 19px;
+color: #6928d9;
+margin-bottom: 15px;
+display: block;
+}
+p.aboutpar {
+  color: #9498a9;
+  padding-bottom: 15px;
+}
+button.btn.btn-success12 {
+  display: inline-block;
+  background: #6928d9;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 34px;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-right: 25px;
+}
+
+button.btn.btn-success12:hover{
+  border: 2px solid #44ebff;
+  background: transparent;
+  transition: all 0.3s;
+  color: black;
+}
+
+
+button.btn.btn-default {
+  
+  background: transparent;
+  color: #060630;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 34px;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 2px solid #44ebff;
+}
+.about {
+  top: -21px;
+  left: 50%;
+}
+.about-2 {
+  
+  top: 50%;
+  
+}.about-3{
+  top: 80%;
+    right: 0;
+
+}
+/* ..................................
+ 05. skille CSS 
+.................................. */
+
+.skille {
+  background: #060630;
+}
+
+.Skills h5 {
+  color: #00ffa2;
+}
+
+.Skills h3 {color: #FDFDFD;}
+
+.edu-name h4 {
+  font-size: 29px;
+  height: 35px;
+  color: wheat;
+  text-transform: capitalize;
+}
+.edu-name p {
+  color: #aaaabf;
+}
+.edu-year h4{
+  font-size: 29px;
+  height: 35px;
+  color: wheat;}
+
+.edu-year-1 h4 {
+  color: #1573FF;
+  
+}
+.edu-year-2 h4 {
+  color: #16ffdb;
+}
+.edu-year-3 h4 {
+  color: #baff26;
+}
+
+.edu-name-list:after {
+  content: '';
+  border-left: 2px solid #6928D9;
+  top: 0;
+  left: -32px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.edu-name1:before {
+  position: absolute;
+  content: url(../img/before/02_home-Recovered.png);
+  left: -56px;
+  top: 10px;
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+}
+.edu-name2:before {
+  position: absolute;
+  content: url(../img/before/01_home-Recovered.png);
+  left: -56px;
+  top: 10px;
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+}
+.edu-name3:before {
+  position: absolute;
+  content: url(../img/before/03_home-Recovered.png);
+  left: -56px;
+  top: 10px;
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+}
+.edu-name-4:before {
+  position: absolute;
+  content: url(../img/before/04_home-Recovered.png);
+  left: -46px;
+  height: 15px;
+  width: 15px;
+  z-index: 1;
+  bottom: 9px;
+}
+.edu-name4 {
+  position: relative;
+}
+.edu-name {
+  position: relative;
+}
+.edu-year {
+  text-align: right;
+  margin-right: 60px;
+  padding-bottom: 54px;
+
+}
+
+.edu-year p {
+  color: #fdfdfd;
+}
+.padd {
+  padding-left: 14px;
+  margin-top: 50px;
+}
+
+.single-progress{
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.parcentage {
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+
+}
+.uiux-progress-p {
+  position: absolute;
+  bottom: -129px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #8787a2;
+  font-size: 14px;
+  line-height: 22px;
+}
+.sklle-1 {
+  left: 18%;
+  position: absolute;
+}
+
+
+/* ..................................
+ 06. .experience CSS 
+.................................. */
+
+.experience{
+  position: relative;
+}
+
+.experience-item,.experience-item11{
+  background-image: url(../img/bg/01_home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 36px;
+  position: relative;
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+
+.experience-shape {
+  position: absolute;
+  left: 4%;
+  bottom: -20px;
+}
+
+.experience-item:before,
+.experience .active:before{
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: -8px;
+  height: 70px;
+  width: 70px;
+  border-top: 8px solid #16ffdb;
+  border-left: 8px solid #16ffdb;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.experience-item11:before{
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: -8px;
+  height: 70px;
+  width: 70px;
+  border-top: 8px solid #16ffdb;
+  border-left: 8px solid #16ffdb;
+  
+}
+.experience .active:before{
+  opacity: 1;
+}
+
+.experience-item:after,
+.experience .active:after{
+  position: absolute;
+  content: "";
+  bottom: -8px;
+  right: -8px;
+  height: 70px;
+  width: 70px;
+  border-bottom: 8px solid #1573ff;
+  border-right: 8px solid #1573ff;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.experience-item11:after{
+  position: absolute;
+  content: "";
+  bottom: -8px;
+  right: -8px;
+  height: 70px;
+  width: 70px;
+  border-bottom: 8px solid #1573ff;
+  border-right: 8px solid #1573ff;
+ 
+}
+.experience .active:after{
+  opacity: 1;
+}
+
+.experience-item:hover:before,
+.experience-item:hover:after{
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.experience-item:hover h4{
+  color: #6928d9;
+}
+
+.experience .active h4{
+  color: #6928d9;
+}
+
+.experience-icon{
+  display: table;
+  position: relative;
+}
+
+.experience-icon:before {
+  position: absolute;
+  content: "";
+  top: -3.5px;
+  left: 15px;
+  height: 7px;
+  width: 7px;
+  background: #16ffdb;
+}
+
+.experience-icon:after{
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: -3.5px;
+  height: 7px;
+  width: 7px;
+  background: #baff26;
+}
+
+.experience-icon i{
+  height: 80px;
+  width: 80px;
+  background: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  color: #6928d9;
+  font-size: 30px;
+}
+
+.experience-item h4 {
+  font-size: 29px;
+  color: #060630;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+.experience-item span {
+  font-size: 16px;
+  color: #9498a9;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.experience-item p {
+  color: #9498a9;
+}
+.experience-item11 h4 {
+  font-size: 29px;
+  color: #6928D9;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+
+.experience-item11 p {
+  color: #9498a9;
+}
+
+.experience-item11 span {
+  font-size: 16px;
+  color: #9498a9;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+
+/* ..................................
+ 07. PORTFOLIO CSS 
+.................................. */
+
+button {
+  border: 0px;
+  background: none;
+}
+.buttom-itom {
+  margin: auto;
+  margin-bottom: 50px;
+}
+.btn-portfolio {
+  margin: 5px 10px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  border-bottom: 2px solid #e8eaf6;
+  color: #9498a9;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-portfolio:hover {
+  border-bottom: 2px solid #060630;
+  color: #060630;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+
+.portfolio-all{
+  margin-bottom: 30px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.portfolio-all a{
+  transition: all 0.3s;
+}
+
+.portfolio-all a:before {
+  position: absolute;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #060630;
+  transition: 0.4s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 27%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio-all a:hover:before{
+  opacity: .9;
+  transition: 0.4s ease-in-out;
+  border: 10px solid #E2E2E2 ;
+  visibility: visible;
+}
+
+.portfolio-con{
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.portfolio-all:hover .portfolio-con{
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.portfolio-all:hover .portfolio-con span{
+  margin-left: 0;
+  margin-bottom: 0;
+  transition: all 0.3s;
+}
+
+.portfolio-all:hover .portfolio-con h5{
+  margin-left: 0;
+  margin-top: 3px;
+  transition: all 0.3s;
+}
+
+.portfolio-con span {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  word-spacing: 4px;
+  position: relative;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  margin-bottom: 7px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.portfolio-con h5 {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #E5E1D4;
+  margin-left: -20px;
+  margin-top: 20px;
+  transition: .3s;
+}
+
+.portfolio-con span:before {
+  position: absolute;
+  content: "";
+  left: -35px;
+  top: 8px;
+  height: 2px;
+  width: 30px;
+  background: #E5D6D7;
+}
+
+.portfolio-all img{
+  height: 250px;
+  width: 100%;
+}
+
+.portfolio-all1 img{
+  height: 530px;
+}
+/* ..................................
+ 08. SERVICES CSS 
+.................................. */
+
+.SERVICES {
+  background: #060630;
+}
+
+.basic-icon-SERVICES h4 {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+}
+.SERVICES-icon span {
+  font-size: 29px;
+  color: #212529;
+  line-height: 22px;
+}
+
+.basic-icon-SERVICES p {
+  color: #fdfdfd;
+}
+
+.SERVICES1 {
+  padding-bottom: 15px;
+}
+
+.col-mar {
+  margin: 20px 0;
+}
+span.color2 {
+  color: #efd30d;
+}
+span.color3 {
+  color: #c516c7;
+}
+
+span.color4 {
+  color: #6928D9;
+}
+span.color5 {
+  color: #FE6C74;
+}
+span.color6 {
+  color: #FEDB5D;
+}
+
+
+/* ..................................
+ 09. Team CSS 
+.................................. */
+.Team{
+  background-image: url(../img/bg-1/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 36px;
+  position: relative;
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+
+
+
+.team-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 410px;
+  position: relative;
+}
+
+.team-img-1{
+  background-image: url('../img/bg-1/01.jpg');
+}
+
+.team-img-2{
+  background-image: url('../img/bg-1/02.jpg');
+}
+
+.team-img-3{
+  background-image: url('../img/bg-1/03.jpg');
+}
+
+.team-item{
+  margin-top: 30px;
+}
+
+.team-item h4 {
+  font-size: 29px;
+  color: #060630;
+  padding: 30px 0 10px 15px;
+  text-transform: capitalize;
+}
+
+.team-item p {
+  color: #6928d9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 15px;
+}
+
+.team-hover{
+  position: absolute;
+  bottom: -40px;
+  left: 52px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.team-img .active{
+  opacity: 1;
+  bottom: -20px;
+}
+
+.team-item:hover .team-hover{
+  bottom: -20px;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.team-hover a {
+  display: inline-block;
+}
+
+.team-hover a i {
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: #9498a9;
+  font-size: 15px;
+  line-height: 39px;
+  margin: 3px;
+  transition: all 0.3s;
+}
+
+.team-hover a i:hover,
+.team-hover a i.active{
+  background: #6928d9;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+/* ..................................
+ 10. testimonial CSS 
+.................................. */
+
+.testimonial {
+  background: #6928d9c7;
+  height: 100%;
+  padding: 0 200px;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+.testimonial:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/bg-1/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+img.authoreig1 {
+  height: 100vh;
+  width: 106%;
+}
+
+.star {
+  float: left;
+}
+
+.star i {
+  color: #fff000;
+  font-size: 14px;
+}
+
+span.quality {
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 500;
+color: #fff;
+float: right;
+}
+
+.testimonial-content{
+margin-top: 120px;
+}
+
+.testimonial-content h4 {
+font-size: 26px;
+color: #fff;
+margin: 30px 0;
+}
+
+.testimonial-content p {
+color: #fff;
+}
+
+.testimonial-men {
+margin-top: 30px;
+}
+
+.inf {
+padding: 8px 15px;
+display: inline-block;
+}
+
+.men {
+float: left;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+margin-right: 20px;
+}
+
+.testimonial12 h5 {
+font-size: 20px;
+color: #fff;
+text-transform: capitalize;
+}
+
+.testimonial12 span {
+color: #eaff00;
+font-weight: 500;
+}
+
+/* ..................................
+ 11. form CSS 
+.................................. */
+.authoreig-2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.form1 {
+  position: relative;
+  margin-top: 30px;
+}
+
+.form1 i {
+  position: absolute;
+  color: #6928d9;
+  font-size: 13px;
+  top: 23px;
+  left: 23px;
+}
+
+.form1 input{
+  height: 60px;
+}
+
+.form1 input::placeholder,
+.form1 textarea::placeholder{
+  color: #bebeca;
+}
+
+.form1 textarea {
+  padding-top: 20px;
+}
+
+.form1 input,
+.form1 textarea{
+  font-size: 12px;
+  padding-left: 53px;
+  border: 2px solid #eae8ff;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.btn-center {
+  position: relative;
+  right: -44%;
+  top: 50px;
+}
+
+
+.your-class11 {
+  border-top: 2px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+  padding: 72px 0 65px 0;
+  position: relative;
+  top: 111px;
+}
+button.slick-prev.slick-arrow {
+  display: none !important;
+}
+button.slick-next.slick-arrow {
+  display: none !important;
+}
+.TOUCH-1 {
+  position: absolute;
+  right: 38px;
+}
+
+
+/* ..................................
+ 12. news CSS 
+.................................. */
+
+.blog-img1 img{
+  width: 100%;
+  height: 260px;
+  transition: all 0.4s;
+}
+
+.news-item:hover .blog-img1 img{
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.blog-cont {
+  padding: 15px;
+}
+
+.name11 {
+  color: #9498a9;
+  font-size: 14px;
+}
+
+.name11 i {
+  padding-right: 6px;
+}
+
+.comm {
+  float: right;
+}
+
+.blog-cont h4 {
+  font-size: 25px;
+  color: #060630;
+  padding: 15px 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.blog-cont p {
+  color: #9498a9;
+}
+
+.blog-item {
+  margin-top: 30px;
+}
+
+.blog-cont h4:hover{
+  color: #6928d9;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.blog-img1{
+  overflow: hidden;
+}
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+.footer0bg {
+  background: #6928D9;
+  padding: 17px 0;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul li a {
+  align-items: center;
+  position: relative;
+  top: 25px;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.footer-bg2 {
+  background: #5C20C3;
+  padding: 50px 0;
+}
+
+.footer-social a {
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #8d63d5;
+  text-align: center;
+  font-size: 14px;
+  height: 50px;
+  width: 50px;
+  line-height: 49px;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+
+.footer-social a:hover{
+  background-color: #6a29d9;
+  border: 2px solid #6a29d9;
+  transition: all 0.3s;
+}
+
+.footer-social a i {
+    display: inline;
+}
+
+.footer-social .active{
+  width: 120px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #6a29d9;
+  border: 2px solid #6a29d9;
+}
+
+.footer-left p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+
+.footer-right {
+  padding-left: 15px;
+}
+
+.footer-right h4 {
+  font-size: 29px;
+  text-transform: capitalize;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.footer-right input {
+  height: 50px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-right button {
+  background: #6a29d9;
+  color: #fff;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
